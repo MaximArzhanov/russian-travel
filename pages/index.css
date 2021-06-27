@@ -1,0 +1,16 @@
+/*  Шрифты  */
+@import url("../fonts/Inter/Inter\ Web/inter.css");
+
+/*  Сторонние библиотеки  */
+@import url("../vendor/normalize.css");
+
+/*  Общие стили страницы  */
+@import url("../blocks/page/page.css");
+
+/*  блок header  */
+@import url("../blocks/header/header.css");
+@import url("../blocks/header/__logo/header__logo.css");
+@import url("../blocks/header/__lang-links/header__lang-links.css");
+@import url("../blocks/header/__lang-link/header__lang-link.css");
+@import url("../blocks/header/__lang-link/_selected/header__lang-link_selected.css");
+
