@@ -1,7 +1,7 @@
-/*  микс  для блока lead.
+/*  микс  для блока photo-grid.
     Задаёт расположение блока - по центру.
     Задёт верхний отступ */
-.content__lead {
+.content__photo-grid {
   margin: 0 auto;
-  margin-top: 56px;
+  margin-top: 92px;
 }
