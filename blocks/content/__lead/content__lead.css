@@ -1,4 +1,5 @@
+/*  микс  для блока lead.
+    Задаёт внешние отступы. */
 .content__lead {
-  margin: 0 auto;
-  margin-top: 56px;
+  margin: 56px 148px 0 148px;
 }
