@@ -1,0 +1,11 @@
+.place {
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: max-content max-content;
+  grid-template-rows: max-content max-content;
+  gap: 48px 40px;
+
+
+  border: 1px solid red;
+}
