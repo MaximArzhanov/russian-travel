@@ -1,5 +1,6 @@
 .places {
   margin: 0;
   padding: 0;
-  width: 984px;
+  max-width: 984px;
+  overflow: auto;
 }

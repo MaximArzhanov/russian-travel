@@ -1,18 +1,21 @@
 .footer__link {
   margin: 0;
   padding: 0;
-  margin-right: 18px;
-  font-family: Inter;
+  margin-right: 13px;
+  font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
   color: #ffffff;
-
-
-  border: 1px solid blue;
+  text-decoration: none;
 }
 
 .footer__link:last-child {
   margin-right: 0;
+}
+
+.footer__link:hover {
+  cursor: pointer;
+  opacity: .8;
 }
