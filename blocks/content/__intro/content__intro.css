@@ -4,3 +4,9 @@
   margin-top: 92px;
   margin-left: 148px;
 }
+
+@media screen and (max-width: 1279px) {
+  .content__intro {
+    margin-left: 48px;
+  }
+}

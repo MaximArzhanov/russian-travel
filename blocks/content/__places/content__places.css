@@ -5,3 +5,10 @@
   margin: 0 auto;
   margin-top: 10px;
 }
+
+@media screen and (max-width: 1279px) {
+  .content__places {
+    margin-left: 48px;
+    margin-right: 48px;
+  }
+}
