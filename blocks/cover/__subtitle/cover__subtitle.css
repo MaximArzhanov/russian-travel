@@ -19,3 +19,9 @@
     top: calc(50% + 60px);
   }
 }
+
+@media screen and (max-width: 1023px) {
+  .cover__subtitle {
+    top: calc(50% + 57px);
+  }
+}
