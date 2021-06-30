@@ -4,4 +4,4 @@
 Используются технологии **HTML** и **CSS**.
 Структура файлов организована по методологии *Nested БЭМ*.
 
-[https://maximarzhanov.github.io/russian-travel/]
+https://maximarzhanov.github.io/russian-travel/
