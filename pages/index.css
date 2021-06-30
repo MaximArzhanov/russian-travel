@@ -56,7 +56,6 @@
 @import url("../blocks/place/__paragraphs/place__paragraphs.css");
 @import url("../blocks/place/__paragraph/place__paragraph.css");
 @import url("../blocks/place/__paragraph/_margin/place__paragraph_margin_top.css");
-@import url("../blocks/place/__paragraph/_whitespace/place__paragraph_whitespace_small.css");
 
 /*  блок cover  */
 @import url("../blocks/cover/cover.css");
@@ -71,3 +70,6 @@
 @import url("../blocks/footer/__links/footer__links.css");
 @import url("../blocks/footer/__link/footer__link.css");
 @import url("../blocks/footer/__copyright/footer__copyright.css");
+
+/*  блок whitespace  */
+@import url("../blocks/whitespace/whitespace.css");
