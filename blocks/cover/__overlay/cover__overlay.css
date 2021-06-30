@@ -29,3 +29,10 @@
     height: 478px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .cover__overlay {
+    width: 320px;
+    height: 200px;
+  }
+}

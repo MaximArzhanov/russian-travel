@@ -25,3 +25,13 @@
     top: calc(50% + 57px);
   }
 }
+
+@media screen and (max-width: 767px) {
+  .cover__subtitle {
+    font-size: 14px;
+    line-height: 16px;
+    top: calc(50% + 15px);
+    left: calc(50% - 145px);
+    width: 288px;
+  }
+}

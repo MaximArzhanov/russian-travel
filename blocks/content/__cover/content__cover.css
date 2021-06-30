@@ -12,3 +12,9 @@
     margin-top: 90px;
   }
 }
+
+@media screen and (max-width: 767px) {
+  .content__cover {
+    margin-top: 66px;
+  }
+}
