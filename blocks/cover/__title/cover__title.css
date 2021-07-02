@@ -9,21 +9,6 @@
   line-height: 76px;
   text-align: center;
   color: #ffffff;
-  position: absolute;
-  top: calc(50% - 120px);
-  left: calc(50% - 280px);
-}
-
-@media screen and (max-width: 1279px) {
-  .cover__title {
-    top: calc(50% - 125px);
-  }
-}
-
-@media screen and (max-width: 1023px) {
-  .cover__title {
-    top: calc(50% - 128px);
-  }
 }
 
 @media screen and (max-width: 767px) {
@@ -31,8 +16,6 @@
     font-size: 32px;
     line-height: 35px;
     max-width: 250px;
-    top: calc(50% - 70px);
-    left: calc(50% - 127px);
   }
 }
 

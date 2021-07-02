@@ -2,27 +2,5 @@
   margin: 0;
   padding: 0;
   object-fit: cover;
-  width: 284px;
-  height: 213px;
-}
-
-@media screen and (max-width: 1279px){
-  .photo-grid__item {
-    width: 300px;
-    height: 226px;
-  }
-}
-
-@media screen and (max-width: 1023px){
-  .photo-grid__item {
-    width: 352px;
-    height: 264px;
-  }
-}
-
-@media screen and (max-width: 767px){
-  .photo-grid__item {
-    width: 288px;
-    height: 216px;
-  }
+  width: 100%;
 }

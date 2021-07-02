@@ -17,7 +17,7 @@
 
 @media screen and (max-width: 767px) {
   .intro__text {
-    max-width: 285px;
+    width: 99%; /* предлог "без" не переносится на следующую строку (без миллионов на счету) */
   }
 }
 

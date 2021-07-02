@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   max-width: 984px;
-  overflow: auto;
 }
 
 @media screen and (max-width: 1279px) {
@@ -17,3 +16,8 @@
   }
 }
 
+@media screen and (max-width: 767px) {
+  .places {
+    width: 100%;
+  }
+}

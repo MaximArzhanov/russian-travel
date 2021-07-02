@@ -2,23 +2,17 @@
     Задаёт внешние отступы,
     Задаёт расположение блока по центру */
 .page__footer {
-  margin: 92px 48px 24px 48px;
-}
-
-@media screen and (max-width: 1279px) {
-  .page__footer {
-    margin-top: 90px;
-  }
+  margin: 90px 48px 0 48px;
 }
 
 @media screen and (max-width: 1023px) {
   .page__footer {
-    margin: 84px 24px 23px 24px;
+    margin: 84px 24px 0 24px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .page__footer {
-    margin: 64px 118px 24px 16px;
+    margin: 64px 118px 0 16px;
   }
 }

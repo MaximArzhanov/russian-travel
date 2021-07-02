@@ -1,24 +1,18 @@
 /*  микс для блока intro.
     Задаёт внешние отступы. */
 .content__intro {
+  margin: 0 auto;
   margin-top: 92px;
-  margin-left: 148px;
-}
-
-@media screen and (max-width: 1279px) {
-  .content__intro {
-    margin-left: 48px;
-  }
 }
 
 @media screen and (max-width: 1023px) {
   .content__intro {
-    margin: 88px 24px 0 24px;
+    margin-top: 88px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .content__intro {
-    margin: 64px 16px 0 16px;
+    margin-top: 64px;
   }
 }

@@ -1,7 +1,7 @@
 .place__website {
   margin: 0;
   padding: 0;
-  width: 484px;
+  max-width: 484px;
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
@@ -9,19 +9,19 @@
 
 @media screen and (max-width: 1279px) {
   .place__website {
-    width: 456px;
+    max-width: 456px;
   }
 }
 
 @media screen and (max-width: 1023px) {
   .place__website {
-    width: 352px;
+    max-width: 352px;
   }
 }
 
 @media screen and (max-width: 767px) {
   .place__website {
-    width: 288px;
+    max-width: 288px;
     margin-left: 16px;
     margin-right: 16px;
   }
