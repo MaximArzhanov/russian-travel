@@ -1,18 +1,12 @@
 .footer__link {
-  margin: 0;
-  padding: 0;
-  margin-right: 13px;
   font-family: Inter, Arial, Helvetica, sans-serif;
   font-style: normal;
   font-weight: normal;
   font-size: 16px;
   line-height: 18px;
-  color: #ffffff;
+  color: #fff;
   text-decoration: none;
-}
-
-.footer__link:last-child {
-  margin-right: 0;
+  transition: opacity .2s linear;
 }
 
 .footer__link:hover {
@@ -24,11 +18,5 @@
   .footer__link {
     font-size: 24px;
     line-height: 24px;
-    display: block;
-    margin-bottom: 32px;
-  }
-
-  .footer__link:last-child {
-    margin-bottom: 48px;
   }
 }

@@ -8,12 +8,13 @@
   font-size: 72px;
   line-height: 76px;
   text-align: center;
+  color: #fff;
+
   grid-column: 1/3;
   grid-row: 1/2;
   align-self: end;
   justify-self: center;
-  color: #ffffff;
-
+  z-index: 1;
 }
 
 @media screen and (max-width: 767px) {

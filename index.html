@@ -31,12 +31,12 @@
           <p class="lead__subtitle">
             Настоящая страна не в выпусках новостей, а здесь.
           </p>
-          <img class="lead__image"
-               src="./images/lead-polka.jpg"
-               alt="Плацкарт, боковые полки, вид из окна.">
-          <p class="lead__caption">
-            ваша полка — верхняя
-          </p>
+          <figure class="lead__image-container">
+            <img class="lead__image"
+                 src="./images/lead-polka.jpg"
+                 alt="Плацкарт, боковые полки, вид из окна.">
+            <figcaption class="lead__caption">ваша полка — верхняя</figcaption>
+          </figure>
         </section>
 
         <!--  section intro  -->
@@ -78,42 +78,81 @@
 
         <!--  section photo-grid  -->
         <section class="photo-grid content__photo-grid">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-train.jpg"
-               alt="Вид из окна поезда">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-mauntain.jpg"
-               alt="Гора Уллу-Тау">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-dog.jpg"
-               alt="Собака на стоге сена">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-forest.jpg"
-               alt="Туман над лесом">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-ice.jpg"
-               alt="Машина на льду">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-baikal.jpg"
-               alt="Пляж на Байкале">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-elbrus.jpg"
-               alt="Гора Эльбрус">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-road-sign.jpg"
-               alt="Дорожный знак">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-kamchatka-1.jpg"
-               alt="Камчатский пейзаж">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-kamchatka-2.jpg"
-               alt="Камчатский вулкан">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-baikal-2.jpg"
-               alt="Зимний пейзаж Байкала">
-          <img class="photo-grid__item"
-               src="./images/photo-grid-ergaki.jpg"
-               alt="Природный парк Ергаки">
+          <ul class="photo-grid__list">
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-train.jpg"
+                   alt="Вид из окна поезда">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-mauntain.jpg"
+                   alt="Гора Уллу-Тау">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-dog.jpg"
+                   alt="Собака на стоге сена">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-forest.jpg"
+                   alt="Туман над лесом">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-ice.jpg"
+                   alt="Машина на льду">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-baikal.jpg"
+                   alt="Пляж на Байкале">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-elbrus.jpg"
+                   alt="Гора Эльбрус">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-road-sign.jpg"
+                   alt="Дорожный знак">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-kamchatka-1.jpg"
+                   alt="Камчатский пейзаж">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-kamchatka-2.jpg"
+                   alt="Камчатский вулкан">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-baikal-2.jpg"
+                   alt="Зимний пейзаж Байкала">
+            </li>
+
+            <li class="photo-grid__item">
+              <img class="photo-grid__image"
+                   src="./images/photo-grid-ergaki.jpg"
+                   alt="Природный парк Ергаки">
+            </li>
+
+          </ul>
         </section>
 
         <!--  section places  -->
@@ -277,10 +316,9 @@
 
         <!--  section cover  -->
         <section class="cover content__cover">
-          <a href="https://stampsy.com/na-elektrichkakh-do-baikala"
-             target="_blank"
-             class="cover__link">
-            <div class="cover__overlay">
+          <a class="cover__link"
+             href="https://stampsy.com/na-elektrichkakh-do-baikala"
+             target="_blank">
               <h2 class="cover__title">
                 До Байкала «на собаках»
               </h2>
@@ -288,8 +326,6 @@
                 По мотивам учебной темы о&nbsp;Транссибе — путешествие
                 от&nbsp;столицы до Байкала на электричках.
               </p>
-            </div>
-            <img class="cover__image" src="./images/cover-trains.jpg" alt="Поезда">
           </a>
         </section>
 
@@ -297,23 +333,41 @@
 
       <footer class="footer page__footer">
         <nav class="footer__links">
-          <a class="footer__link"
-             href="https://yandex.ru/maps"
-             target="_blank">Карты</a>
-          <a class="footer__link"
-             href="https://yandex.ru/pogoda"
-             target="_blank">Погода</a>
-          <a class="footer__link"
-             href="https://rasp.yandex.ru"
-             target="_blank">Расписание</a>
-          <a class="footer__link"
-             href="https://calendar.yandex.ru"
-             target="_blank">Календарь</a>
-          <a class="footer__link"
-             href="https://travel.yandex.ru"
-             target="_blank">Путешествия</a>
+          <ul class="footer__list">
+
+            <li class="footer__item">
+              <a class="footer__link"
+                 href="https://yandex.ru/maps"
+                 target="_blank">Карты</a>
+            </li>
+
+            <li class="footer__item">
+              <a class="footer__link"
+                 href="https://yandex.ru/pogoda"
+                 target="_blank">Погода</a>
+            </li>
+
+            <li class="footer__item">
+              <a class="footer__link"
+                 href="https://rasp.yandex.ru"
+                 target="_blank">Расписание</a>
+            </li>
+
+            <li class="footer__item">
+              <a class="footer__link"
+                 href="https://calendar.yandex.ru"
+                 target="_blank">Календарь</a>
+            </li>
+
+            <li class="footer__item">
+              <a class="footer__link"
+                 href="https://travel.yandex.ru"
+                 target="_blank">Путешествия</a>
+            </li>
+
+          </ul>
         </nav>
-        <p class="footer__copyright">&#169; 2021. Аржанов Максим</p>
+        <p class="footer__copyright">&copy; 2021. Аржанов Максим</p>
       </footer>
 
     </div> <!-- конец блока page-->
